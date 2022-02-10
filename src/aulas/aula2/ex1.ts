@@ -8,4 +8,15 @@
 
 // code here
 
-export default {};
+function teste(teste: string[]):boolean {
+    for(var i = 0; i <= teste.length; i++)
+    {
+        if(teste[i] == "teste")
+        {
+            return true;
+        }
+    }
+    return false
+}
+
+export default teste;

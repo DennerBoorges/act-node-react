@@ -200,6 +200,7 @@ describe("Aula 2 - Trabalhando com funções e condicionais", () => {
     );
   });
   itIf(exIf3)("Ex3 - Função maiores palavras", () => {
+    // @ts-ignore
     const sut = ex3;
     const incomeValues = [
       ["aba", "aa", "ad", "vcd", "aba"],
